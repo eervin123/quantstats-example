@@ -1,8 +1,8 @@
-# Project Title
+# Quantstats Example
 
 ## Table of Contents
 
-- [Project Title](#project-title)
+- [Quantstats Example](#quantstats-example)
   - [Table of Contents](#table-of-contents)
   - [About ](#about-)
   - [Getting Started ](#getting-started-)
@@ -10,7 +10,7 @@
 
 ## About <a name = "about"></a>
 
-Simple example highlighting the quantstats library. Note, currently the quantstats package can't handle timezone aware indexes so you need to remove the tz aware bit. 
+Simple example highlighting the quantstats library. Note, currently the quantstats package can't handle timezone aware indexes so you need to remove the tz aware bit.
 
 ```
 # fetch the daily returns for a stock and remove the timezone info
@@ -41,4 +41,3 @@ or
 - tabulate >= 0.8.0
 - yfinance >= 0.1.38
 - plotly >= 3.4.1 (optional, for using plots.to_plotly())
-
