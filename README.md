@@ -4,15 +4,15 @@
 
 - [Quantstats Example](#quantstats-example)
   - [Table of Contents](#table-of-contents)
-  - [About ](#about-)
-  - [Getting Started ](#getting-started-)
+  - [About](#about)
+  - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
 
-## About <a name = "about"></a>
+## About<a name = "about"></a>
 
 Simple example highlighting the quantstats library. Note, currently the quantstats package can't handle timezone aware indexes so you need to remove the tz aware bit.
 
-```
+``` Python
 # fetch the daily returns for a stock and remove the timezone info
 
 stock = qs.utils.download_returns('GOOG')
@@ -23,11 +23,11 @@ bench = qs.utils.download_returns('SPY')
 bench.index = bench.index.tz_localize(None) 
 ```
 
-## Getting Started <a name = "getting_started"></a>
+## Getting Started<a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 `pip install quantstats`
-or 
+or
 `conda install -c ranaroussi quantstats`
 
 ### Prerequisites
